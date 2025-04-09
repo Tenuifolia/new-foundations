@@ -17,3 +17,6 @@ CREATE TABLE IF NOT EXISTS users (
     user_type TEXT CHECK(user_type IN ('user', 'manager')) NOT NULL
 );
 """)
+
+
+# Some interesting new message
