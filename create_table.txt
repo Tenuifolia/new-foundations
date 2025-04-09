@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS Users (
+    user_id TEXT PRIMARY KEY,
+    first_name TEXT,
+    last_name TEXT,
+    city TEXT,
+    state TEXT,
+    email TEXT,
+    password TEXT,
+    phone TEXT,
+    address TEXT,
+    date_created TEXT
+);
